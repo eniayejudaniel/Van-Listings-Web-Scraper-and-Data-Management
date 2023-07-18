@@ -42,12 +42,12 @@ To run the web scraper locally, follow these steps:
 
 ## Technologies Used
 
--Python
--Selenium
--ChromeDriver
--gspread
--OAuth2Client
--Google Sheets API
+- Python
+- Selenium
+- ChromeDriver
+- gspread
+- OAuth2Client
+- Google Sheets API
 
 ## Contributing
 
