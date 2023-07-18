@@ -1,5 +1,5 @@
 # Van-Listings-Web-Scraper-and-Data-Management
-This repository contains a web scraping project built in Python that extracts van listings from a [website](https://www.camplify.co.nz/s?seed=8031&page=40) and manages the data using [Google Sheets](https://docs.google.com/spreadsheets/d/14spVQNxUEq1JIdPOKHZfjphkh-f2QOS5eD5eBv-5fsQ/edit?usp=sharing). The scraper utilizes Selenium for web scraping, BeautifulSoup for HTML parsing, and gspread for interacting with Google Sheets API. It allows efficient scraping of van details such as type, description, location, hire fee per day, and number of reviews. The scraped data is then stored in a structured manner in a [Google Sheets](https://docs.google.com/spreadsheets/d/14spVQNxUEq1JIdPOKHZfjphkh-f2QOS5eD5eBv-5fsQ/edit?usp=sharing) document for easy access and analysis.
+This repository contains a web scraping project built in Python that extracts van listings from a [website](https://www.camplify.co.nz/s?seed=8031&page=40) and manages the data using [Google Sheets](https://docs.google.com/spreadsheets/d/14spVQNxUEq1JIdPOKHZfjphkh-f2QOS5eD5eBv-5fsQ/edit?usp=sharing). The scraper utilizes Selenium for web scraping, gspread for interacting with the Google Sheets API, and other supporting technologies. It allows efficient scraping of van details such as type, description, location, hire fee per day, and number of reviews. The scraped data is then stored in a structured manner in a [Google Sheets](https://docs.google.com/spreadsheets/d/14spVQNxUEq1JIdPOKHZfjphkh-f2QOS5eD5eBv-5fsQ/edit?usp=sharing) document for easy access and analysis.
 
 ## Table of Contents
 
@@ -42,11 +42,12 @@ To run the web scraper locally, follow these steps:
 
 ## Technologies Used
 
-- Python
-- Selenium
-- BeautifulSoup
-- gspread
-- Google Sheets API
+.Python
+.Selenium
+.ChromeDriver
+.gspread
+.OAuth2Client
+.Google Sheets API
 
 ## Contributing
 
